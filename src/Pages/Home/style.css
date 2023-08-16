@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+._container {
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #017143;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(600px at right 800px);
+  z-index: -1;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+header ._logo {
+  margin-left: 70px;
+}
+header nav {
+  margin-right: 65px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+main ._details {
+  margin-left: 70px;
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+._details h1 {
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+._details h1 span {
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+._details p {
+  color: #333;
+}
+._details a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}
+main ._prop {
+  width: 50%;
+  height: 550px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+._prop img {
+  animation: floatCoffe 4s ease-in-out infinite;
+}
+
+footer {
+  position: absolute;
+  left: 30%;
+  bottom: 20px;
+}
+
+._icon ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+._icon ul li {
+  height: 100px;
+}
+
+._icon ul li img {
+  height: 100%;
+}
+
+._icon ul li img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+._icon ul li img:active {
+  transform: scale(10);
+  cursor: pointer;
+  transform: translateY(0);
+}
+
+@keyframes floatCoffe {
+  0% {
+    transform: translateY(-14px);
+  }
+  50% {
+    transform: translateY(14px);
+  }
+  100% {
+    transform: translateY(-14px);
+  }
+}

@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Landing Page Starbucks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é uma landing page fictícia para o Starbucks, criada utilizando a tecnologia React.
 
-## Available Scripts
+![GIF Demonstrativo](src/assets/starbucks.gif)
 
-In the project directory, you can run:
+## Visão Geral
 
-### `npm start`
+Essa landing page foi desenvolvida como parte de um projeto de prática para aprimorar as habilidades em React. O objetivo era criar uma página de destino para o Starbucks, utilizando componentes reutilizáveis e boas práticas de desenvolvimento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- HTML
+- CSS
 
-### `npm test`
+## Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório: `git clone https://github.com/CarlosDanielMoura/starbucks-landing-page.git`
+2. Acesse o diretório do projeto: `cd starbucks-landing-page`
+3. Instale as dependências: `npm install`
 
-### `npm run build`
+## Como Usar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Inicie o servidor de desenvolvimento: `npm start`
+2. Acesse a aplicação no navegador: [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuições são bem-vindas! Se você quiser contribuir com melhorias, correções de bugs ou novos recursos, siga os passos:
 
-### `npm run eject`
+1. Faça um fork deste repositório
+2. Crie uma branch para a sua feature: `git checkout -b feature-nova`
+3. Faça commit das suas mudanças: `git commit -m 'Adiciona nova feature'`
+4. Faça push para a branch: `git push origin feature-nova`
+5. Abra um Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto está licenciado sob a [Licença MIT](link-para-a-licenca).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Nota:** Esta landing page é fictícia e foi criada apenas para fins educacionais e de demonstração.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Criado por Carlos Daniel de Moura Santos - [GitHub Profile](https://github.com/CarlosDanielMoura).
