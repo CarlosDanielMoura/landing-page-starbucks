@@ -2,7 +2,9 @@
 
 Esta é uma landing page fictícia para o Starbucks, criada utilizando a tecnologia React.
 
-![GIF Demonstrativo](src/assets/starbucks.gif)
+<p align="center">
+  <img src="src/assets/starbucks.gif" alt="GIF Demonstrativo">
+</p>
 
 ## Visão Geral
 
@@ -37,7 +39,7 @@ Contribuições são bem-vindas! Se você quiser contribuir com melhorias, corre
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](link-para-a-licenca).
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ---
 
