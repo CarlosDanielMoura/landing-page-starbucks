@@ -60,7 +60,7 @@ const Home = () => {
           <h1>
             It's not just Coffe <br /> It's <span> Starbucks</span>
           </h1>
-          <p>
+          <p className="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde
             laborum asperiores neque nesciunt accusamus nam iste labore, maxime
             doloremque est, magnam ullam illo? Obcaecati dolore exercitationem
